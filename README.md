@@ -1,12 +1,14 @@
 # jo-lib
-allprojects {
+Add it in your root build.gradle at the end of repositories:
+
+	allprojects {
 		repositories {
 			...
 			maven { url 'https://jitpack.io' }
 		}
 	}
-  
-  
-  dependencies {
-	        implementation 'com.github.Aji2:jo-lib:1.0.0'
+Step 2. Add the dependency
+
+	dependencies {
+	        implementation 'com.github.Aji2:jo-lib:Tag'
 	}
